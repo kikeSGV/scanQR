@@ -13,9 +13,8 @@
     "cordova-plugin-device": {
       "PACKAGE_NAME": "com.example.hello"
     },
-    "cordova-plugin-qr-barcode-scanner": {
-      "ANDROID_SUPPORT_V4_VERSION": "27.+",
-      "PACKAGE_NAME": "com.example.hello"
+    "com.phonegap.plugins.barcodescanner": {
+      "PACKAGE_NAME": "com.qrscanner"
     }
   },
   "dependent_plugins": {}

@@ -15,18 +15,10 @@
     "is_top_level": true,
     "variables": {}
   },
-  "cordova-plugin-qr-barcode-scanner": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-qr-barcode-scanner@8.0.3"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
   "com.phonegap.plugins.barcodescanner": {
     "source": {
       "type": "registry",
-      "id": "com.phonegap.plugins.barcodescanner"
+      "id": "com.phonegap.plugins.barcodescanner@^0.6.1"
     },
     "is_top_level": true,
     "variables": {}

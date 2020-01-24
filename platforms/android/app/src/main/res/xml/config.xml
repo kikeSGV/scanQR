@@ -7,9 +7,6 @@
     <feature name="Device">
         <param name="android-package" value="org.apache.cordova.device.Device" />
     </feature>
-    <feature name="BarcodeScanner">
-        <param name="android-package" value="com.phonegap.plugins.barcodescanner.BarcodeScanner" />
-    </feature>
     <name>QRScanner</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -20,4 +17,7 @@
     <content src="index.html" />
     <access origin="*" />
     <preference name="loglevel" value="DEBUG" />
+    <feature name="BarcodeScanner">
+        <param name="android-package" value="com.phonegap.plugins.barcodescanner.BarcodeScanner" />
+    </feature>
 </widget>

@@ -9,17 +9,17 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       ]
     },
     {
-      "id": "cordova-plugin-qr-barcode-scanner.BarcodeScanner",
-      "file": "plugins/cordova-plugin-qr-barcode-scanner/www/barcodescanner.js",
-      "pluginId": "cordova-plugin-qr-barcode-scanner",
+      "id": "com.phonegap.plugins.barcodescanner.barcodescanner",
+      "file": "plugins/com.phonegap.plugins.barcodescanner/www/barcodescanner.js",
+      "pluginId": "com.phonegap.plugins.barcodescanner",
       "clobbers": [
-        "cordova.plugins.barcodeScanner"
+        "plugins.barcodeScanner"
       ]
     }
   ];
   module.exports.metadata = {
     "cordova-plugin-whitelist": "1.3.4",
     "cordova-plugin-device": "2.0.3",
-    "cordova-plugin-qr-barcode-scanner": "8.0.3"
+    "com.phonegap.plugins.barcodescanner": "0.6.1"
   };
 });
