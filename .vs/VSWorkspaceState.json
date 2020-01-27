@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\hello",
+    "\\hello\\www",
+    "\\hello\\www\\js"
   ],
-  "SelectedNode": "\\platforms",
+  "SelectedNode": "\\hello\\www\\js\\index.js",
   "PreviewInSolutionExplorer": false
 }
